@@ -33,7 +33,7 @@ export default class Modal extends React.Component {
 									<input type="number" className="form__input" id="phone" placeholder="Phone" name="user_phone" />
 								</div>
 								<textarea name="textarea" id="textarea" cols="45" rows="8" placeholder="Leave a comment" name="user_txt" ></textarea>
-								<input type="submit" className="form__button" value="Submit" />
+								<input href="mail.php" type="submit" className="form__button" value="Submit" />
 							</div>
 						</form>
 					</div>
