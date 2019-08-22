@@ -1,17 +1,17 @@
 .set__block{
 	width: 50%;
-	height: 66%;
+	height: 73.3%;
 	background: #fff;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;	
-	overflow: scroll;
+	overflow: auto;
 	padding-top: 80px;
 }
 .set__item{
 	text-align: center;
 }
 .set__img{
-	width: 51%;
+	width: 60%;
 	object-fit: cover;
 }

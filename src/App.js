@@ -103,7 +103,7 @@ export default class Hamburger extends React.Component {
 			cheese.removeAttribute("id");
 			this.setState({ num: num - 20 });
 		}
-		if ( num < 40 ) {
+		if ( num < 50 ) {
 			checkout.classList.remove("pulsate");
 		}
 	}
@@ -134,7 +134,7 @@ export default class Hamburger extends React.Component {
 			meat.removeAttribute("id");
 			this.setState({ num: num - 30 });
 		}
-		if ( num < 40 ) {
+		if ( num < 60 ) {
 			checkout.classList.remove("pulsate");
 		}
 	}
