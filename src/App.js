@@ -1,6 +1,5 @@
 import React from "react";
 import Order from "./Order/order";
-import Modal from "./Modal/modal";
 import "./App.css";
 import BurgerSet from "./BurgerSet/burgerset";
 
@@ -152,7 +151,6 @@ export default class Hamburger extends React.Component {
 				<Order
 				addSalad={this.addSalad} addTomato={this.addTomato} addCheese={this.addCheese} addMeat={this.addMeat}
 				deleteSalad={this.deleteSalad} deleteTomato={this.deleteTomato} deleteCheese={this.deleteCheese} deleteMeat={this.deleteMeat} />
-				<Modal />
 			</div>
 		);
 	}

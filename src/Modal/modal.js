@@ -2,11 +2,11 @@ import React from "react";
 import Checkout from "./../Checkout/checkout"
 import "./modal.css";
 import "./index.js";
-import cancel from "./cancel.svg";
+import cancel from "./../assets/hamburger_imgs/cancel.svg";
 
 export default class Modal extends React.Component {
 
-	store (e) {
+	store = (e) => {
 
 		e.preventDefault();
 
@@ -23,7 +23,7 @@ export default class Modal extends React.Component {
 	}
 
 	render() {
-
+		
 		return (
 			<div>
 				<div className="modal" id="modal" data-modal="1">
@@ -41,7 +41,7 @@ export default class Modal extends React.Component {
 								<div className="form__row">
 									<input type="number" className="form__input" id="phone" placeholder="Phone" name="user_phone" />
 								</div>
-								<textarea name="textarea" id="textarea" cols="45" rows="6" placeholder="Leave a comment" name="user_txt" ></textarea>
+								<textarea name="textarea" id="textarea" cols="45" rows="5" placeholder="Leave a comment" name="user_txt" ></textarea>
 								<input onClick={ this.store } type="submit" className="form__button" value="Submit" />
 							</div>
 						</form>

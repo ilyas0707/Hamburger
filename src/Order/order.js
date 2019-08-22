@@ -1,5 +1,6 @@
 import React from "react";
 import "./order.css";
+import Modal from "./../Modal/modal";
 
 const Order = ({ addCheese , addMeat, addSalad, addTomato, deleteCheese , deleteMeat, deleteSalad, deleteTomato }) => {
 
@@ -36,6 +37,7 @@ const Order = ({ addCheese , addMeat, addSalad, addTomato, deleteCheese , delete
 				</div>
 				<div className="order__checkout"><input type="button" className="checkout__link" id="checkout__link" value="Order" disabled /></div>
 			</div>
+			<Modal />
 		</div>
 	);
 

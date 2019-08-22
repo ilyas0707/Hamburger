@@ -1,11 +1,11 @@
 import React from "react";
 import "./burgerset.css";
-import up from "../hamburger_imgs/up.png";
-import down from "../hamburger_imgs/down.png";
-import Salad from "../hamburger_imgs/salad.png";
-import Cheese from "../hamburger_imgs/cheese.png";
-import Meat from "../hamburger_imgs/meat.png";
-import Tomato from "../hamburger_imgs/tomato.png";
+import up from "../assets/hamburger_imgs/up.png";
+import down from "../assets/hamburger_imgs/down.png";
+import Salad from "../assets/hamburger_imgs/salad.png";
+import Cheese from "../assets/hamburger_imgs/cheese.png";
+import Meat from "../assets/hamburger_imgs/meat.png";
+import Tomato from "../assets/hamburger_imgs/tomato.png";
 
 const BurgerSet = () => {
 

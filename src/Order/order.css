@@ -1,10 +1,11 @@
 .order__block{
 	width: 50%;
-	height: 87.3%;
+	height: 70vh;
 	background: #323232;
 	display: flex;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+	position: relative;
 }
 .order__box{
 	color: #fff;
